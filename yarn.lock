@@ -1364,6 +1364,14 @@
     "@tryghost/ignition-errors" "^0.1.0"
     lodash "^4.17.21"
 
+"@tryghost/errors@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.1.0.tgz#3288eb30ed148c1ada7d3b0e818f5af03c531cbe"
+  integrity sha512-Dssqhw4f/xHFDqbkm0bHCT/gVBGsgoRfzgT7bj0urMD83olrHKdIqal9iKswWLeKzfdhyqM+cW8J7lmSaWHBMA==
+  dependencies:
+    lodash "^4.17.21"
+    uuid "^8.3.2"
+
 "@tryghost/express-dynamic-redirects@0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@tryghost/express-dynamic-redirects/-/express-dynamic-redirects-0.2.2.tgz#a83d7fe612453ca9d1e018d57548b421b039e4a1"
@@ -1468,12 +1476,12 @@
   dependencies:
     "@tryghost/kg-clean-basic-html" "^2.2.3"
 
-"@tryghost/limit-service@1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@tryghost/limit-service/-/limit-service-1.0.5.tgz#7c63809f7efc5f25b6ac314d4747b21e1c4d530e"
-  integrity sha512-wlDo8Y6AzUF0dK2TRsLyLi/EtkZwACPzJPm2uIgahf0OS5c9sF/tGavfNP/adkbwiUwRYy2XUhmmOI0LaenY0Q==
+"@tryghost/limit-service@1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@tryghost/limit-service/-/limit-service-1.0.6.tgz#9d6e30641521a30787bcf7ec1161c90534454064"
+  integrity sha512-tRIKdR2vZfavBVn8eKkpywqzeJdROdAe5rLuhilpD8f+qDkJJKrn9IMP45eqXMUpAAp61nuKpdYbrmSrpAWbHA==
   dependencies:
-    "@tryghost/errors" "^1.0.4"
+    "@tryghost/errors" "^1.1.0"
     lodash "^4.17.21"
     luxon "^1.26.0"
 
